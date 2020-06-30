@@ -42,7 +42,7 @@ This repository implements [SSD (Single Shot MultiBox Detector)](https://arxiv.o
 git clone https://github.com/lufficc/SSD.git
 cd SSD
 #Required packages
-pip install torch torchvision yacs tqdm opencv-python vizer pywin32 openxr Imath
+pip install torch torchvision yacs tqdm opencv-python vizer pywin32 openexr Imath
 
 # Optional packages
 # If you want visualize loss curve. Default is enabled. Disable by using --use_tensorboard 0 when training.
