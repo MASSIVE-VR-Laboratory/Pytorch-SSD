@@ -32,7 +32,9 @@ This repository implements [SSD (Single Shot MultiBox Detector)](https://arxiv.o
 1. [Vizer](https://github.com/lufficc/Vizer)
 1. GCC >= 4.9
 1. OpenCV
-
+1. pywin32
+1. OpenEXR
+1. Imath
 
 ### Step-by-step installation
 
@@ -40,7 +42,7 @@ This repository implements [SSD (Single Shot MultiBox Detector)](https://arxiv.o
 git clone https://github.com/lufficc/SSD.git
 cd SSD
 #Required packages
-pip install torch torchvision yacs tqdm opencv-python vizer
+pip install torch torchvision yacs tqdm opencv-python vizer pywin32 openxr Imath
 
 # Optional packages
 # If you want visualize loss curve. Default is enabled. Disable by using --use_tensorboard 0 when training.
